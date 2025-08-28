@@ -1,14 +1,14 @@
 {
-  "name": "wa-voice-bot",
+  "name": "wa-twilio-fonnte-bot",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
+  "type": "module",
   "dependencies": {
-    "express": "^4.18.2",
     "body-parser": "^1.20.2",
-    "dotenv": "^16.3.1",
-    "twilio": "^4.20.0"
+    "dotenv": "^16.4.1",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "twilio": "^4.21.0"
   }
 }
